@@ -1,0 +1,56 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgba(253, 249, 162, 0.428);
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+a{
+  text-decoration-color: none;
+  text-decoration-style: none;
+}
+header{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+main{
+  margin: 25px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+/*        ESTILO RESCATADO DE UN POST QUE VI EN INTERNET PARA SACAR LAS FLECHAS A EL INPUT TYPE="NUMBER"        */
+
+input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/*    FIN   */
+
+button{
+  background-color: white;
+  border-radius: 10.5px;
+}
+.inputValor{
+  background-color: white;
+  
+}
+.casaDeCambio{
+  display: flex;
+  justify-content: center;
+  padding: 1.5px;
+  border: 0.5px solid black;
+}
+.noticiasBox1{
+  display: flex;
+  padding: 1.5rem;
+  gap: 1.5rem;
+
+}

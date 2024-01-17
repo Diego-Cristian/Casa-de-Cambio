@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./img/Logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Casa Cambio JS</title>
+</head>
+<body>
+  <header>
+    <h3>CASA DE CAMBIO</h3>
+    <div class="casaDeCambio">
+      <form class="formulario">
+        <p>Seleccionar moneda a cambiar:</p>
+        <input type="radio" name="cambio" id="uno">Dolar
+        <input type="radio" name="cambio" id="dos">Euro
+        <p>Ingrese el monto de pesos a cambiar:</p>
+        <input type="number" class="inputValor" id="valor">
+        <input type="button" id="botonCotizador" value="cotizar" style="background-color: white;">
+      </form>
+    </div>
+  </header>
+  <main>
+    <div class="box1">
+      <div class="criptoHouse">  
+        <p>Queres ver los precios de las criptomonedas?</p>
+        <p>Haz click en el boton de aqui abajo</p>
+        <button id="criptoBoton">criptoHouse</button>
+      </div>
+    </div>
+    <div class="box2">
+      <div class="noticiasCripto">
+        <p>En este mundo no hay nada mejor que estar actualizado!!</p>
+        <p>Por eso te traemos las mejores noticias cripto!, haz click en el boton de abajo para saber mas!</p>
+        <button id="criptoNewsBoton">criptoNews</button>
+      </div>
+    </div>
+  </main>
+  <footer> 
+    <div class="recargar">
+      <p><a href="index.html"><button>Recargar</button></a>
+      </p>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
