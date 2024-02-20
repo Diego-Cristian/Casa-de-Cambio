@@ -1,11 +1,13 @@
 *{
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
-  background-color: rgba(253, 249, 162, 0.428);
-  color: black;
+  box-sizing: border-box;  
+  color: rgb(0, 0, 0);
   font-family: 'Times New Roman', Times, serif;
   font-size: 30px;
+}
+Body{
+  background-color: black;
 }
 a{
   text-decoration-color: none;
@@ -15,27 +17,26 @@ header{
   display: flex;
   justify-content: center;
   margin-bottom: 15px;
+  background-color: rgba(153, 196, 252, 0.428);
 }
 main{
   margin: 25px;
+  background-color: rgba(153, 196, 252, 0.428);
 }
 footer{
   display: flex;
   justify-content: center;
   gap: 25px;
+  background-color: rgba(153, 196, 252, 0.428);
 }
-
-/*        ESTILO RESCATADO DE UN POST QUE VI EN INTERNET PARA SACAR LAS FLECHAS A EL INPUT TYPE="NUMBER"        */
-
+/*  ESTILO RESCATADO DE UN POST QUE VI EN INTERNET PARA SACAR LAS FLECHAS A EL INPUT TYPE="NUMBER"  */
 input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-
 /*    FIN   */
-
 button{
-  background-color: white;
+  background-color: rgb(219, 255, 60);
   border-radius: 10.5px;
 }
 .inputValor{

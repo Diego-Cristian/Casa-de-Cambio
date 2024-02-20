@@ -1,32 +1,28 @@
 //EMPIEZA FUNCION PARA VERIFICAR ROL
 alert(
-	"Para poder ingresar al contenido de la pagina porfavor utilizar el rol de 'profesor' o 'tutor', en caso contrario no se visualizara nada."
+	"Para poder ingresar al contenido de la pagina porfavor utilizar el nombre de 'diego' o 'vidal', en caso contrario no se visualizara nada."
 );
-
 //Primero se empieza obteniendo el valor de la variable nombre, con un prompt que te pregunte cual es tu rol
-let nombre = prompt("¿Cual es su rol?");
+let nombre = prompt("¿Escriba Nombre del Dueño?");
 //Luego se ejecuta una funcion en la cual se checkea que si el usuario es "profesor" o "tutor" se le de acceso a la pagina, y en el caso contrario se le de una advertencia que no tiene acceso a la pagina.
 function checkearNombre() {
-	if (nombre == "profesor" || nombre == "tutor") {
+	if (nombre == "diego" || nombre == "vidal") {
 		alert("Bienvenido a la pagina de divisas");
 	} else {
 		alert("Usted no tiene acceso al contenido de la pagina");
 		window.location.reload();
 	}
 }
-
 checkearNombre();
-
 //EMPIEZA FUNCION CONVERSION
-
 let botonConvertir = document.getElementById("botonCotizador");
 botonConvertir.addEventListener("click", convertir);
 
 function convertir() {
 	let valore = parseInt(document.getElementById("valor").value);
 	let resultado = 0;
-	let dolar = 1100;
-	let euro = 1300.4;
+	let dolar = 1110;
+	let euro = 950.3;
 	//Primero en la parte superior se declararon las variables necesarias para poder realizar la conversion, la variable valore, viene dada por lo ingresado por el usuario en el input type number con el id "valor"
 	if (document.getElementById("uno").checked) {
 		resultado = valore / dolar;
@@ -52,7 +48,7 @@ function preguntarCripto() {
 	);
 	// AQUI SE EMPIEZA PREGUNTANDO POR UN PROMPT QUE PRECIO TE GUSTARIA SABER
 	if (cripto == "Ethereum") {
-		alert("El precio de ethereum es de $2300 USD");
+		alert("El precio de ethereum es de $2955 USD");
 		let rePregunta = prompt("Te gustaria saber algun precio mas?");
 		if (rePregunta == "si") {
 			preguntarCripto();
@@ -61,7 +57,7 @@ function preguntarCripto() {
 		}
 		// SI LA RESPUESTA ES ETHEREUM SE DA EL PRECIO Y SE PREGUNTA SI GUSTARIA SABER ALGUNO MAS, SI DICE QUE SI SE REPREGUNTA SI DICE CUALQUIER OTRA COSA SE CIERRA.
 	} else if (cripto == "Bitcoin") {
-		alert("El precio del Bitcoin es de $43000 USD");
+		alert("El precio del Bitcoin es de $51000 USD");
 		let rePregunta = prompt("Te gustaria saber algun precio mas?");
 		if (rePregunta == "si") {
 			preguntarCripto();
@@ -70,7 +66,7 @@ function preguntarCripto() {
 		}
 		// SI LA RESPUESTA ES BITCOIN SE DA EL PRECIO Y SE PREGUNTA SI GUSTARIA SABER ALGUNO MAS, SI DICE QUE SI SE REPREGUNTA SI DICE CUALQUIER OTRA COSA SE CIERRA.
 	} else if (cripto == "USDT") {
-		alert("El valor del USDT es de $ 1 USD");
+		alert("El valor del USDT es de $ 2 USD");
 		let rePregunta = prompt("Te gustaria saber algun precio mas?");
 		if (rePregunta == "si") {
 			preguntarCripto();
@@ -83,7 +79,6 @@ function preguntarCripto() {
 	}
 	// Y PARA FINALIZAR SI EL USUARIO SE EQUIVOCO SE DA UN ALERT QUE DA LOS NOMBRES CORRECTOS DE LAS CRIPTOMONEDAS QUE SE PUEDEN SABER EL PRECIO.
 }
-
 //CRIPTO NEWS
 
 let botonCriptoNews = document.getElementById("criptoNewsBoton");
