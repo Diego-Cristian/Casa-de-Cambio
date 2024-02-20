@@ -34,7 +34,7 @@ function convertir() {
 		alert("El cambio de Pesos a Euros es: $" + resultado.toFixed(2));
 	} else if (document.getElementById("tres").checked) {
 		resultado = valore / real;
-		alert("El cambio de Pesos a Real es: $" + resultado.toFixed());//Aqui se realiza el mismo procedimiento que antes simplemente que se cambia a la variable euro.		
+		alert("El cambio de Pesos a Real es: $" + resultado.toFixed(2));//Aqui se realiza el mismo procedimiento que antes simplemente que se cambia a la variable euro.		
 	} else {
 		alert("Tienes que completar el formulario");
 		//Aqui al final se le instruye al codigo que en caso el usuario no haber seleccionado ninguna opcion o no haber ingresado un valor se le informe que tiene que completar el formulario.
