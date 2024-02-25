@@ -34,7 +34,7 @@ input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-ou
   -webkit-appearance: none;
   margin: 0;
 }
-/*    FIN   */
+/*   FIN   */
 button{
   background-color: rgb(219, 255, 60);
   border-radius: 10.5px;
@@ -53,5 +53,4 @@ button{
   display: flex;
   padding: 1.5rem;
   gap: 1.5rem;
-
 }
