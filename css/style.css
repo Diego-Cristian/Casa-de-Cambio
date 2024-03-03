@@ -52,5 +52,5 @@ button{
 .noticiasBox1{
   display: flex;
   padding: 1.5rem;
-  gap: 1.5rem;
+  gap: 0.5rem;
 }
