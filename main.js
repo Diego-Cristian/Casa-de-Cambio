@@ -66,6 +66,7 @@ function preguntarCripto() {
 		} else {
 			return;
 		}
+		
 		// SI LA RESPUESTA ES BITCOIN SE DA EL PRECIO Y SE PREGUNTA SI GUSTARIA SABER ALGUNO MAS, SI DICE QUE SI SE REPREGUNTA SI DICE CUALQUIER OTRA COSA SE CIERRA.
 	} else if (cripto == "USDT") {
 		alert("El valor del USDT es de $ 2 USD");
