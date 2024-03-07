@@ -21,9 +21,9 @@ botonConvertir.addEventListener("click", convertir);
 function convertir() {
 	let valore = parseInt(document.getElementById("valor").value);
 	let resultado = 0;
-	let dolar = 1110;
-	let euro = 950.3;
-	let real = 168.8;
+	let dolar = 998;
+	let euro = 900;
+	let real = 171.5;
 	//Primero en la parte superior se declararon las variables necesarias para poder realizar la conversion, la variable valore, viene dada por lo ingresado por el usuario en el input type number con el id "valor"
 	if (document.getElementById("uno").checked) {
 		resultado = valore / dolar;
